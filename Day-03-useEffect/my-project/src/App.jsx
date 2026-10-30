@@ -1,3 +1,4 @@
+import Clock from "./components/Clock"
 import User from "./components/User"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-center text-2xl p-5">useEffect in React</h1>
 
       <User/>
+      <Clock/>
     </div>
   )
 }
