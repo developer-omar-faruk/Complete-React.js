@@ -17,7 +17,7 @@ function Clock() {
     },[show])
   return (
     <div className='m-10 flex flex-col gap-3 items-center justify-center'>
-      <h1 className='text-xl'> {show&& `Clock : ${time}`} </h1>
+       {show&& <h1 className='text-xl'>Clock : {time}</h1> }  
       <button onClick={()=>setShow(!show)} className='bg-white text-black p-2'>{show ? "Hide Time" : "Show Time"}</button>
 
     </div>
