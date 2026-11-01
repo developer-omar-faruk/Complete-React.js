@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react"
 import ReactMemo from "./components/ReactMemo"
 import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <ReactMemo obj={obj} name = "Omar Faruk" /> 
 
       <UseMemo/>
+      <UseCallback/>
+
     </div>
   )
 }
