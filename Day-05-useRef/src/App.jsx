@@ -1,4 +1,5 @@
 import { useRef, useState } from "react"
+import UseRefForm from "./UseRefForm";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +33,8 @@ function App() {
         <button onClick={handleStop} className="p-2 px-4 rounded-md cursor-pointer bg-gray-900 text-white font-semibold">Stop</button>
         <button onClick={handleReset} className="p-2 px-4 rounded-md cursor-pointer bg-gray-900 text-white font-semibold">Reset</button>
       </div>
+
+      <UseRefForm/>
     </div>
   )
 }
